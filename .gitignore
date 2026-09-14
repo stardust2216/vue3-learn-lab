@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+*.log
+
+# 本地工具产生的缓存/数据（不属于项目源码，不发布）
+.dsh-mattskillsdeck-cache/
+data/

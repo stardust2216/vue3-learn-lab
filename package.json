@@ -1,0 +1,27 @@
+{
+  "name": "vue3-learn-lab",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Vue 3 学习模板：基础 + 进阶功能对照学习",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:only": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "pinia": "^2.2.6",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.1.10"
+  }
+}
